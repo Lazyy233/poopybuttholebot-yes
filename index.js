@@ -56,4 +56,4 @@ client.on("ready", async () => {
 
     });
 });
-client.login("process.env.TOKEN")
+client.login(process.env.TOKEN)
