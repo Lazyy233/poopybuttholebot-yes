@@ -21,8 +21,12 @@ config({
 client.on("ready", async () => {
 
     console.log("Weep is Online")
-    client.user.setActivity("Illegal Videos", {type: "WATCHING"});
+    client.user.setActivity("Cat Videos", {type: "WATCHING"});
 
+    
+    //CHANGE BOT STATUS HERE ABOVE ME NOW.. "PLAYING, STREAMING, WATCHING"
+    
+    
     client.on("message", async message => {
         const prefix = "*";
 
