@@ -21,6 +21,7 @@ config({
 client.on("ready", async () => {
 
     console.log("Weep is Online")
+    client.user.setActivity("Illegal Videos", {type: "WATCHING"});
 
     client.on("message", async message => {
         const prefix = "*";
