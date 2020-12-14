@@ -4,9 +4,6 @@ const superagent = require('superagent');
 module.exports = {
     name: "hentai",
     run: async (client, msg) => {
-
-      message.delete()
-      
         if (!msg.channel.nsfw) return msg.reply("Please use this command in an NSFW channel")
         superagent.get('https://nekobot.xyz/api/image').query({ type: 'hentai' }).end((err, response) => {
 
